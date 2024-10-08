@@ -1,0 +1,118 @@
+.qr-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background: radial-gradient(circle, #4b0082, #320d3e); 
+  height: 100vh; 
+  color: white; 
+  overflow: hidden; 
+  padding: 20px;
+}
+
+.title h2 {
+  margin-bottom: 30px;
+  font-size: 3rem;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.generate-button, .clear-button {
+  padding: 15px 30px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  background-color: #a5a5a5;
+  width: 240px;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  transition: transform 0.2s ease-in-out, background-color 0.3s ease-in-out;
+  color: black;
+}
+
+.clear-button2 {
+  padding: 15px 30px;
+  margin: 10px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  background-color: #ff0000;
+  width: 240px;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  transition: transform 0.2s ease-in-out, background-color 0.3s ease-in-out;
+  color: rgb(255, 255, 255);
+}
+
+.clear-button2:hover {
+  transform: scale(1.1);
+  background-color: #ff0000;
+}
+
+
+
+.generate-button:hover, .clear-button:hover {
+  transform: scale(1.1);
+  background-color: #dcdcdc;
+}
+
+.loading-text, .error-text {
+  margin-top: 20px;
+  font-size: 1.2rem;
+}
+
+.qr-image {
+  margin-top: 30px;
+  width: 500px; 
+  height: 500px; 
+  border-radius: 10px;
+  box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.2);
+}
+
+.limit-container {
+  margin-top: 20px;
+}
+
+.limit-container input {
+  padding: 10px;
+  font-size: 1rem;
+  border-radius: 5px;
+  border: 1px solid #a5a5a5;
+  color: black;
+  background-color: white;
+  width: 200px;
+}
+
+.limit-container button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  font-weight: bold;
+  background-color: #a5a5a5;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  transition: transform 0.2s ease-in-out, background-color 0.3s ease-in-out;
+  color: black;
+  margin-left: 10px;
+}
+
+.limit-container button:hover {
+  transform: scale(1.05);
+  background-color: #dcdcdc;
+}
+.student-list-container {
+  overflow: hidden; 
+}
+
+.student-list-container::-webkit-scrollbar {
+  display: none; 
+}
+
+.student-list-container {
+  -ms-overflow-style: none; 
+  scrollbar-width: none; 
+}

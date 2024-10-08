@@ -1,0 +1,55 @@
+.department-container {
+    text-align: center;
+    /* background: linear-gradient(135deg, #320d3e, #581845); */
+    background: radial-gradient(circle, #4b0082, #320d3e); /* Radial gradient from light purple to dark purple/black */
+
+    height: 100vh;
+    color: white;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+  }
+  
+  .title h2 {
+    margin: 20px 0;
+    font-size: 3rem;
+    letter-spacing: 2px;
+  }
+  
+  .department-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 50px;
+  }
+  
+  .department-button {
+    width: 200px;
+    height: 100px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    background-color: #a5a5a5;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .department-button:hover {
+    transform: scale(1.1);
+  }
+  
+  .back-button {
+    background-color: transparent;
+    color: white;
+    border: none;
+    font-size: 1.2rem;
+    cursor: pointer;
+    margin-right: 20px;
+  }
+  

@@ -1,0 +1,119 @@
+.qr-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background: radial-gradient(circle, #4b0082, #320d3e); /* Background gradient */
+  height: 100vh; /* Full viewport height */
+  color: white; /* Text color */
+  overflow: hidden; /* Prevent scrolling */
+  padding: 20px;
+}
+
+.title h2 {
+  margin-bottom: 30px;
+  font-size: 3rem;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.generate-button {
+  padding: 15px 30px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  background-color: #a5a5a5;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  transition: transform 0.2s ease-in-out, background-color 0.3s ease-in-out;
+  color: black;
+}
+
+.generate-button:hover {
+  transform: scale(1.1);
+  background-color: #dcdcdc;
+}
+.clear-button2 {
+  padding: 15px 30px;
+  margin: 10px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  background-color: #ff0000;
+  width: 240px;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  transition: transform 0.2s ease-in-out, background-color 0.3s ease-in-out;
+  color: rgb(255, 255, 255);
+}
+
+.clear-button2:hover {
+  transform: scale(1.1);
+  background-color: #ff0000;
+}
+.loading-text, .error-text {
+  margin-top: 20px;
+  font-size: 1.2rem;
+}
+
+.qr-image {
+  margin-top: 30px;
+  width: 500px; /* Increased width */
+  height: 500px; /* Increased height */
+  border-radius: 10px;
+  box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.2);
+}
+.qr-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background: radial-gradient(circle, #4b0082, #320d3e);
+  height: 100vh;
+  color: white;
+  overflow: hidden;
+  padding: 20px;
+}
+
+.title h2 {
+  margin-bottom: 30px;
+  font-size: 3rem;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.generate-button, .export-button {
+  padding: 15px 30px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  background-color: #a5a5a5;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  transition: transform 0.2s ease-in-out, background-color 0.3s ease-in-out;
+  color: black;
+  margin: 10px;
+}
+
+.generate-button:hover, .export-button:hover {
+  transform: scale(1.1);
+  background-color: #dcdcdc;
+}
+
+.loading-text, .error-text {
+  margin-top: 20px;
+  font-size: 1.2rem;
+}
+
+.qr-image {
+  margin-top: 30px;
+  width: 500px;
+  height: 500px;
+  border-radius: 10px;
+  box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.2);
+}
